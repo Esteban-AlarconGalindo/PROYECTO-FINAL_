@@ -1,0 +1,44 @@
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta Direcciones</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/statics/estilos.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>Consulta de Espacios Públicos Registrados</h2>
+    <table class="table table-bordered table-striped mt-4">
+      <thead class="table-dark">
+        <tr>
+          <th>Tipo de Vía</th>
+          <th>Dirección</th>
+          <th>Estrato</th>
+          <th>Sentido</th>
+          <th>Estado</th>
+          <th>Clasificación</th>
+          <th>Congestión</th>
+          <th>Coordenadas</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for e in espacios %}
+        <tr>
+          <td>{{ e.tipo_via }}</td>
+          <td>{{ e.numero_principal }} {{ e.letra_principal }} {{ e.bis }} # {{ e.numero_secundario }}</td>
+          <td>{{ e.estrato }}</td>
+          <td>{{ e.sentido_via }}</td>
+          <td>{{ e.estado_via }}</td>
+          <td>{{ e.tipo_via_clasificacion }}</td>
+          <td>{{ e.horas_congestion }}</td>
+          <td>{{ e.lat }}, {{ e.lng }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a href="/" class="btn btn-secondary mt-3">Volver al Inicio</a>
+  </div>
+</body>
+</html>

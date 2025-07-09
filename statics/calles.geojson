@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.601300, -74.085300] },
+      "properties": {
+        "nombre": "Cra 19 con Calle 6",
+        "estado": "Dañada",
+        "flujo": "Alto",
+        "tipo_via": "Principal",
+        "sentido": "Unidireccional (Norte-Sur)",
+        "peak_hours": "6:00 am a 9:00 am, 3:00 pm a 7:00 pm",
+        "off_peak_hours": "8:00 pm a 12:00 am",
+        "observaciones": "Mucho tráfico, comercio informal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.602200, -74.084600] },
+      "properties": {
+        "nombre": "Cra 18 con Calle 7",
+        "estado": "Regular",
+        "flujo": "Medio",
+        "tipo_via": "Secundaria",
+        "sentido": "Bidireccional",
+        "peak_hours": "6:00 am a 9:00 am, 3:00 pm a 7:00 pm",
+        "off_peak_hours": "10:00 am a 12:00 pm, 8:00 pm a 12:00 am",
+        "observaciones": "Poco señalizada, alto flujo peatonal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.602800, -74.083900] },
+      "properties": {
+        "nombre": "Cra 17 con Calle 8",
+        "estado": "Buena",
+        "flujo": "Bajo",
+        "tipo_via": "Secundaria",
+        "sentido": "Bidireccional",
+        "peak_hours": "6:00 am a 9:00 am",
+        "off_peak_hours": "10:00 am a 2:00 pm, 8:00 pm a 12:00 am",
+        "observaciones": "Zona residencial tranquila"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.603500, -74.083000] },
+      "properties": {
+        "nombre": "Cra 16 con Calle 9",
+        "estado": "Buena",
+        "flujo": "Medio",
+        "tipo_via": "Secundaria",
+        "sentido": "Unidireccional (Sur-Norte)",
+        "peak_hours": "6:00 am a 9:00 am, 3:00 pm a 7:00 pm",
+        "off_peak_hours": "10:00 am a 2:00 pm",
+        "observaciones": "Ciclo ruta, pavimento en buen estado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.604200, -74.082300] },
+      "properties": {
+        "nombre": "Cra 15 con Calle 10",
+        "estado": "Regular",
+        "flujo": "Alto",
+        "tipo_via": "Principal",
+        "sentido": "Unidireccional (Sur-Norte)",
+        "peak_hours": "6:00 am a 9:00 am, 3:00 pm a 7:00 pm",
+        "off_peak_hours": "8:00 pm a 12:00 am",
+        "observaciones": "Cruce concurrido, pavimento aceptable"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.603000, -74.084800] },
+      "properties": {
+        "nombre": "Cra 18 con Calle 8",
+        "estado": "Dañada",
+        "flujo": "Medio",
+        "tipo_via": "Secundaria",
+        "sentido": "Bidireccional",
+        "peak_hours": "6:00 am a 9:00 am, 5:00 pm a 6:00 pm",
+        "off_peak_hours": "10:00 am a 12:00 pm, 8:00 pm a 12:00 am",
+        "observaciones": "Baches visibles, mal drenaje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.601800, -74.083500] },
+      "properties": {
+        "nombre": "Cra 16 con Calle 6",
+        "estado": "Buena",
+        "flujo": "Bajo",
+        "tipo_via": "Secundaria",
+        "sentido": "Bidireccional",
+        "peak_hours": "7:00 am a 9:00 am",
+        "off_peak_hours": "10:00 am a 2:00 pm, 8:00 pm a 12:00 am",
+        "observaciones": "Calle adoquinada, poco tránsito"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.604000, -74.085000] },
+      "properties": {
+        "nombre": "Cra 19 con Calle 10",
+        "estado": "Regular",
+        "flujo": "Medio",
+        "tipo_via": "Principal",
+        "sentido": "Unidireccional (Norte-Sur)",
+        "peak_hours": "6:00 am a 9:00 am, 3:00 pm a 7:00 pm",
+        "off_peak_hours": "10:00 am a 2:00 pm, 8:00 pm a 12:00 am",
+        "observaciones": "Cruce concurrido, pavimento aceptable"
+      }
+    }
+  ]
+}
