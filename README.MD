@@ -1,5 +1,3 @@
-'md
-
 # Proyecto: Afectación de la Movilidad por Apropiación del Espacio Público en La Estanzuela, Bogotá
 
 ## 1. Requisitos y Requerimientos del Proyecto
@@ -20,40 +18,47 @@
 
 ---
 
-## 2. Arquitectura de Iteraciones
+## 2. Arquitectura de Iteraciones y Capas
 
-### Iteración 1: Mapa básico + carga de datos estáticos
+### Arquitectura general en 4 capas:
+
+- **Frontend:** HTML, Bootstrap, Leaflet.js para visualización de mapas y formularios interactivos.
+- **Backend:** Flask (Python) para manejar rutas, lógica y procesamiento de formularios.
+- **Base de Datos:** SQLite usando SQLAlchemy para persistencia de datos.
+- **API / Comunicación:** Rutas Flask que permiten consulta y envío de datos entre frontend y backend.
+
+### Iteraciones:
+
+#### Iteración 1: Mapa básico + carga de datos estáticos
 - Creación del mapa en Leaflet centrado en Bogotá.
 - Carga inicial de datos desde GeoJSON (calles.geojson).
 - Visualización básica de marcadores con iconos diferenciados.
 
-### Iteración 2: Integración de base de datos y formularios
+#### Iteración 2: Integración de base de datos y formularios
 - Configuración de SQLite y SQLAlchemy.
 - Creación del modelo `Espacio`.
 - Formulario para registrar características de una vía.
 - Almacenamiento de datos desde formulario.
 
-### Iteración 3: Consulta por dirección
+#### Iteración 3: Consulta por dirección
 - Implementación de búsqueda de dirección en GeoJSON.
 - Visualización de los atributos en un `popup`.
 
-### Iteración 4: Mejoras UI/UX
+#### Iteración 4: Mejoras UI/UX
 - Formularios desplegables para categorías como estrato, tipo de vía, estado, sentido.
 - Opción de seleccionar múltiples rangos horarios.
 - Estilizado con Bootstrap.
 
 ---
 
-## 3. Avance de Iteraciones (Commits)
+## 3. Avance de Iteraciones
 
-| Iteración | Descripción | Commit |
-|----------|-------------|--------|
-| 1 | Inicialización de proyecto Flask y mapa Leaflet | `a1b2c3d` |
-| 2 | Base de datos integrada y modelo `Espacio` creado | `d4e5f6g` |
-| 3 | Consulta de dirección implementada | `h7i8j9k` |
-| 4 | Interfaz mejorada, formularios dropdown y validaciones | `l0m1n2o` |
-
-> *Nota:* Los hashes de commit son representativos.
+| Iteración | Descripción                                                 |
+|-----------|-------------------------------------------------------------|
+| 1         | Inicialización de proyecto Flask y mapa Leaflet             |
+| 2         | Base de datos integrada y modelo `Espacio` creado           |
+| 3         | Consulta de dirección implementada                         |
+| 4         | Interfaz mejorada, formularios dropdown y validaciones     |
 
 ---
 
@@ -93,7 +98,7 @@
 
 ---
 
-## 6. AUTOR 
+## 6. AUTOR
 
-### BRAYAN ESTEBAN ALARCÓN GALINDO
-### CÓDIGO: 20192025144
+**Brayan Esteban Alarcón Galindo**  
+**Código:** 20192025144
